@@ -1,0 +1,274 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+#main {
+
+}
+.clearfix {
+  overflow: auto;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 7%;
+  padding-right: 5%;
+  padding-bottom: 5px;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #FFE040;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  color: #999999;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  margin: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#workExperience-header > h2 {
+    padding-left: 57px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  color: #4A95C4;
+  font-weight: 600;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 26px;
+  color: #F3F3F3;
+  line-height: 28px;
+  margin-left: 10px;
+  line-height: 60px;
+}
+
+#skillsH3 {
+  color: white;
+  display: none;
+  font-family: inherit;
+}
+
+.orange {
+/*  background-color: orange;*/
+}
+
+.orange-text {
+  color: #4A95C4;
+  font-weight: 600;
+}
+
+.white-text {
+  color: #4A95C4;
+}
+
+.gray {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+/*  background-color: #4A4A4A;*/
+}
+
+/* TODO: Replace with image later */
+#header {
+    background-color: white;
+    background: #484848 url("header3.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  width: 150px;
+  height: 150px;
+  display: none;
+  border-radius: 8%;
+  box-shadow: 10px 10px 5px black;
+  margin-right: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  position: center;
+  background-color: white;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+    border-radius: 8%;
+}
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+.onlineCourse {
+  padding-left: 0px;
+}
+
+.row {
+    max-height:500px;
+}
+span {
+  color: #66b3ff;
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+#inName {
+  font-size: 16px;
+  padding: 5px;
+  color: #4A95C4;
+  font-weight: 800;
+  background-color: #FFE040;
+  border-radius: 15%;
+}
+
+#sort-button {
+    width: 100px;
+    margin: 20px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    border-radius:4px;
+    color: #F6E1FF;
+}
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+}
